@@ -34,7 +34,7 @@ CGFloat buttonSpacerHeight = 0;
         parentView = _parentView;
         delegate = self;
         useMotionEffects = false;
-        buttonTitles = @[@"Close"];
+        buttonTitles = [@[@"Close"] mutableCopy];
     }
     return self;
 }

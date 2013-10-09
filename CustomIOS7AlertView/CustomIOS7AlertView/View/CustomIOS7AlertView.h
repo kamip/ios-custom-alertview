@@ -19,7 +19,7 @@
 @property (nonatomic, retain) UIView *buttonView;    // Buttons on the bottom of the dialog
 
 @property (nonatomic, assign) id delegate;
-@property (nonatomic, retain) NSArray *buttonTitles;
+@property (nonatomic, retain) NSMutableArray *buttonTitles;
 @property (nonatomic, assign) BOOL useMotionEffects;
 
 - (id)initWithParentView: (UIView *)_parentView;
